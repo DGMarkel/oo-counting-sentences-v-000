@@ -15,7 +15,9 @@ class String
   end
 
   def count_sentences
+    puts self
+    binding.pry
     end_punctuation = self.scan(/[!?.][^!?.]/)
-  end_punctuation.length
+    end_punctuation.length
   end
 end
