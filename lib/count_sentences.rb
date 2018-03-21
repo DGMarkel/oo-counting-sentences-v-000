@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     puts self
-    self.scan(/[!?.][^!?.]/).length
-
+    puts self.scan(/[!?.][^!?.]/).length
+    binding.pry
   end
 end
