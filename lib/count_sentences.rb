@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    end_punctuation = self.scan(/[!?.][^!?.])
+    end_punctuation = self.scan(/[!?.][^!?.]/)
   end_punctuation.length
   end
 end
